@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nirza\\RiderProjects\\AzureTeachTutorials\\WebApiAngularAdDemo\\WebApiAngularAdDemo\\WebApiAngularAdDemo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nirza\\RiderProjects\\AzureTeachTutorials\\WebApiAngularAdDemo\\WebApiAngularAdDemo\\WebApiAngularAdDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nirza\\RiderProjects\\AzureTeachTutorials\\WebApiAngularAdDemo\\WebApiAngularAdDemo\\WebApiAngularAdDemo.csproj",
+        "projectName": "WebApiAngularAdDemo",
+        "projectPath": "C:\\Users\\nirza\\RiderProjects\\AzureTeachTutorials\\WebApiAngularAdDemo\\WebApiAngularAdDemo\\WebApiAngularAdDemo.csproj",
+        "packagesPath": "C:\\Users\\nirza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nirza\\RiderProjects\\AzureTeachTutorials\\WebApiAngularAdDemo\\WebApiAngularAdDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nirza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[1.23.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.15, 5.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.3.22179.4\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
